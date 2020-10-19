@@ -36,7 +36,7 @@ function FilmsContainer() {
 
   return (
     <section className="section">
-      <h1 className="section-heading">Danh Sách Phim</h1>
+      <h1 className="section-heading">List Movies</h1>
       <div className="row">{renderFilmItem()}</div>
       <div style={{ paddingBottom: 10 }}>
         <Pagination
