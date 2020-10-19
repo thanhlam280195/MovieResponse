@@ -8,7 +8,7 @@ import { fetch_list_movie } from "../actions/filmsAction";
 function FilmsContainer() {
   const [
     loadingDataMovie,
-    { loadingDataMovies, data: dataMovie },
+    { data: dataMovie },
   ] = useLazyQuery(GET_MOVIE);
   const dispatch = useDispatch();
   const [dataList, setDataList] = useState([]);
